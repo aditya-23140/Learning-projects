@@ -1,0 +1,74 @@
+body{
+  font-family: tahoma;
+  background-image: url("https://upload-os-bbs.hoyolab.com/upload/2023/08/17/17138284/18d938ce0a1668ae64579598a13ba3ca_7110668677785919574.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+form{
+  background-color: #390202b8;
+  padding: 20px;
+}
+
+h1, p{
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+#survey-form{
+  margin: 0 auto;
+  max-width:500px;
+  min-width:300px;
+  width: 60vw;
+}
+
+fieldset{
+  border: none;
+}
+
+label {
+  display: block;
+  padding: 0 0.5rem 0.5rem;
+}
+
+textarea,
+input,
+select{
+  width: 100%;
+  height: 30px;
+  display: block;
+  margin: 0.5rem 0 0 0;
+  background-color: #1e1e1e5f;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"]
+{
+  width: unset;
+  display: unset;
+  margin: unset;
+  vertical-align: middle;
+}
+
+textarea{
+  height: 100px;
+}
+
+input[type="submit"]
+{
+  display: block;
+  width: 60%;
+  margin: 5px auto 20px;
+  background-color: #1e1d1d;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+input[type="submit"]:active{
+  opacity: 0.5;
+}
